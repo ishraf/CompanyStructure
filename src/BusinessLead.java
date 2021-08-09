@@ -2,7 +2,7 @@
     Desc: Manage employee of type business lead
     Class structure: BusinessLead > BusinessEmployee > Employee
  */
-public class BusinessLead extends BusinessEmployee{
+public class BusinessLead extends BusinessEmployee implements Lead{
     private int maxHeadCount;           // max employee to handle
     public int curHeadCount;            // current employee handled
     private Accountant[] employee;      // employee object of type accountant

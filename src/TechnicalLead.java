@@ -2,7 +2,7 @@
     Desc: Manage employee of type technical lead
     Class structure: TechnicalLead > TechnicalEmployee > Employee
  */
-public class TechnicalLead extends TechnicalEmployee{
+public class TechnicalLead extends TechnicalEmployee implements Lead{
     private int maxHeadCount;           // max employee to handle
     public int curHeadCount;            // current employee handled
     public SoftwareEngineer[] employee; // employee object of type software engineer
